@@ -4,7 +4,7 @@
 
 # obedjs <small>1.0.0</small>
 
-> A lightweight framework built on top of Express.js for rapidly developing APIs with Node.js and Express.
+> A lightweight framework built on top of Express.js for rapidly developing APIs with Node.js and Express.js.
 
  ⚡️ Simple, lightweight, fast, and intuitive. 
 
