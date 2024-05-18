@@ -6,7 +6,7 @@
 
 ### Clone Repository
 
-To install obedjs, use git:
+To clone obedjs, use git:
 
 ```bash
 git clone  https://github.com/gaiyadev/obedjs.git project-name
@@ -60,7 +60,7 @@ npm run generate route User
 
 ```
 
-### Generate all components(controler, service and route) for User
+### Generate all components(controler, service and route)
 
 ```bash
 npm run generate all User
@@ -81,3 +81,15 @@ npm run generate config Db
 
 ```
 ## Advanced Usage
+
+## Unit Test
+```bash
+npm run test
+
+```
+
+## E2E Test
+```bash
+npm run test:e2e
+
+```
