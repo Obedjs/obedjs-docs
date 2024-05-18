@@ -82,9 +82,15 @@ npm run generate config Db
 ```
 ## Advanced Usage
 
-## Test
+### Generate a email service
+```bash
+npm run generate email Welcome
 
-### Unit 
+```
+
+## Testing
+
+### Unit Test
 ```bash
 npm run test
 
