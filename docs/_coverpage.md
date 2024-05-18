@@ -1,6 +1,6 @@
 <!-- _coverpage.md -->
 
-![logo](_media/icon.svg)
+<!-- ![logo](_media/icon.svg) -->
 
 # obedjs <small>1.0.0</small>
 
