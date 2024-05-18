@@ -82,13 +82,15 @@ npm run generate config Db
 ```
 ## Advanced Usage
 
-## Unit Test
+## Test
+
+### Unit 
 ```bash
 npm run test
 
 ```
 
-## E2E Test
+### E2E Test
 ```bash
 npm run test:e2e
 
