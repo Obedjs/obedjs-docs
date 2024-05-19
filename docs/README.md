@@ -63,7 +63,7 @@ npm run start:prod
 Routing refers to how an application’s endpoints (URIs) respond to client requests. For an introduction to routing, see Basic routing.
 
 
-```bash
+```code
 import { Router } from 'express';
 import { AppController } from '../../controllers/app/app.controller';
 import { AppService } from '../../services/app/app.service';
@@ -85,13 +85,28 @@ Controllers are responsible for handling incoming requests and returning respons
 
 ```bash
 npm run generate controller User
-
+```
+```code
+router.get('/', controller.fetchAll.bind(controller));
+router.update('/:id', controller.update.bind(controller));
+router.delete('/:id', controller.delete.bind(controller));
+router.post('/', controller.create.bind(controller));
 ```
 
 ### [Service](#service)
 
 ```bash
 npm run generate service User
+```
+
+```code
+export class AppService {
+  public async getHello(): Promise<any> {
+    return {
+      message: "Hello obedjs"
+    }
+  }
+}
 
 ```
 
