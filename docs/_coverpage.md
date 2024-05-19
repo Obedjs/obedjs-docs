@@ -13,4 +13,4 @@
 [GitHub](https://github.com/gaiyadev/obedjs)
 [Get Started](#installation)
 
-![color](#FFFFFF)
+![color](#f0f0f0)

@@ -1,11 +1,11 @@
-# Introduction
+## [Introduction](#introduction)
 
 > obedjs is a lightweight framework built on top of Express.js for rapidly developing APIs with Node.js and Express.
 
-## Installation
+## [Installation](#installation)
+
 
 ### Clone Repository
-
 To clone obedjs, use git:
 
 ```bash
@@ -37,7 +37,7 @@ npm run start:prod
 
 ```
 
-## Basic Usage
+## [Basic Usage](#Basic)
 
 ### Generate a controller
 
@@ -80,7 +80,7 @@ npm run generate middleware Auth
 npm run generate config Db
 
 ```
-## Advanced Usage
+## [Advanced Usage](#Advanced)
 
 ### Generate a email service
 ```bash
@@ -88,7 +88,14 @@ npm run generate email Welcome
 
 ```
 
-## Testing
+### Generate a dto with validation
+```bash
+npm run generate dto SignUp
+
+```
+
+## [Testing](#Testing)
+
 
 ### Unit Test
 ```bash

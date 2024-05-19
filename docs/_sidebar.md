@@ -1,11 +1,13 @@
 - Getting Started
-  - [Introduction](/)
-  - [Installation](/installation)
-- Usage
-  - [Basic Usage](/usage/basic)
-  - [Advanced Usage](/usage/advanced)
+  - [Documentation](/)
+  <!-- - [Installation](/Installation) -->
+
+<!-- - Usage
+  - [Basic Usage](/Basic)
+  - [Advanced Usage](/Advanced)
+
 - Testing
-    - [Unit Test](/unit/test)
-    - [E2E Test](/e2e/test)
+    - [Unit Test](/u]Unit)
+    - [E2E Test](/E2e) -->
 
 

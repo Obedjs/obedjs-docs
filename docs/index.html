@@ -16,10 +16,13 @@
       name: 'obedjs',
       repo: 'https://github.com/gaiyadev/obedjs.git',
       coverpage: true,
-      loadSidebar: false,
+      loadSidebar: true,
       executeScript: true,       
       maxLevel: 3,  
       subMaxLevel: 2,
+        auto2top: true,
+          // autoHeader: true,
+
       afterMounted: function () {
         window.scrollTo(0, 0);
       },
