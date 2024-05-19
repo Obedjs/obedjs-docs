@@ -3,9 +3,10 @@
 > obedjs is a lightweight framework built on top of Express.js for rapidly developing APIs with Node.js and Express. -->
 
 ## [Installation](#installation)
+
 To get started, you can either scaffold the project with the Obedjs CLI, or clone a starter project (both will produce the same outcome).
 
-To scaffold the project with the Obedjs CLI, run the following commands. This will create a new project directory, and populate the directory with the initial core Nest files and supporting modules, creating a conventional base structure for your project. Creating a new project with the Obedjs CLI is recommended for first-time users. We'll continue with this approach in First Steps
+To scaffold the project with the Obedjs CLI, run the following commands. This will create a new project directory, and populate the directory with the initial core ObedJs files and supporting modules, creating a conventional base structure for your project. Creating a new project with the Obedjs CLI is recommended for first-time users.
 
 ### Install the CLI
 
@@ -40,7 +41,7 @@ app.use('/', appRoutes);
 const PORT: number = parseInt(process.env.PORT || '3000', 10);
 
 app.listen(PORT, () => {
-  console.log(`Server is running on port ${PORT}`);
+  console.log(`ObedJs Listening on port ${PORT}`);
 });
 
 export default app;

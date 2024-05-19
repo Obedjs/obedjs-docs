@@ -4,10 +4,9 @@
 
 # obedjs <small>1.0.0</small>
 
-> A lightweight framework built on top of Express.js for rapidly developing APIs with Node.js and Express.js.
+> A TypeScript-Powered Framework Built on Express.js for Scalable and Robust Applications.
 
- ⚡️ Simple, lightweight, fast, and intuitive. 
-
+ ⚡️ TypeScript-powered, robust, and fast.
 
 
 [GitHub](https://github.com/gaiyadev/obedjs)
