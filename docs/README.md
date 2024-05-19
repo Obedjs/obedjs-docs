@@ -165,6 +165,11 @@ The list below enumerates the Express vulnerabilities that were fixed in the spe
 NOTE: If you believe you have discovered a security vulnerability in Obedjs, please see Security Policies and Procedures.
 
 ### [Production](#production)
+#### Docker file setup
+
+```bash
+npm run docker Dockerfile
+```
 
 
 ## Testing
