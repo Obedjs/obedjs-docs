@@ -2,7 +2,7 @@
 
 <!-- ![logo](_media/icon.svg) -->
 
-# obedjs <small>1.0.0</small>
+# ObedJs <small>1.0.0</small>
 
 > A TypeScript-Powered Framework Built on Express.js for Scalable and Robust Applications.
 
