@@ -134,6 +134,7 @@ npm run generate dto SignUp
 
 ### [Middleware](#middleware)
 Middleware is a function which is called before the route handler. Middleware functions have access to the request and response objects, and the next() middleware function in the application’s request-response cycle. The next middleware function is commonly denoted by a variable named next.
+
 ```bash
 npm run generate middleware Auth
 ```
@@ -141,22 +142,41 @@ npm run generate middleware Auth
 ### [Configuration](#configuration)
 
 ```bash
-npm run generate config Db
-
+npm run generate config Database
 ```
 
 ### [Logger](#logger)
 
-```bash
-npm run obedjs-logger
+Install the obedjs-logger package(is preinstall already)
 
+```bash
+npm i obedjs-logger
+```
+
+```code
+import Logger, { LogLevel } from 'obedjs-logger';
+
+const logger = new Logger(LogLevel.DEBUG, 'project.log');
+
+logger.info('This is an info message');
+logger.warn('This is a warning message');
+logger.error('This is an error message');
+logger.debug('This is a debug message');
 ```
 
 ### [Validation](#validation)
-It is best practice to validate the correctness of any data sent into a web application. To automatically validate incoming requests, Nest provides several pipes available right out-of-the-box
+It is best practice to validate the correctness of any data sent into a web application. To automatically validate incoming requests, ObedJs make use of class-validator out-of-the-box
+
+```bash
+  npm i class-validator
+```
 
 ### [Error Handling](#error-handling)
 Error Handling refers to how Express catches and processes errors that occur both synchronously and asynchronously. Express comes with a default error handler so you don’t need to write your own to get started.
+
+```bash
+
+```
 
 ## [Advanced Usage](#advanced-usage)
 
@@ -172,19 +192,16 @@ NOTE: If you believe you have discovered a security vulnerability in Obedjs, ple
 npm run generate docker Dockerfile
 ```
 
-
 ## Testing
 
 ### [Unit Test](#unit-test)
 
 ```bash
 npm run test
-
 ```
 
 ### [E2E Test](#e2e-test)
 
 ```bash
 npm run test:e2e
-
 ```
