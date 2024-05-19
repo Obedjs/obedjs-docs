@@ -9,7 +9,7 @@
  ⚡️ TypeScript-powered, robust, and fast.
 
 
-[GitHub](https://github.com/gaiyadev/obedjs)
+[GitHub](https://github.com/Obedjs/obedjs)
 [Get Started](#installation)
 
 ![color](#f0f0f0)

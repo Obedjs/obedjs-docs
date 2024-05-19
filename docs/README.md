@@ -22,7 +22,7 @@ obedjs create my-new-project
 ### Alternatively
 
 ```bash  
-git clone  https://github.com/gaiyadev/obedjs.git project-name
+git clone  https://github.com/Obedjs/obedjs.git project-name
 cd my-new-project
 npm install
 ```
