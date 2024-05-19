@@ -168,7 +168,7 @@ NOTE: If you believe you have discovered a security vulnerability in Obedjs, ple
 #### Docker file setup
 
 ```bash
-npm run docker Dockerfile
+npm run generate docker Dockerfile
 ```
 
 
