@@ -165,18 +165,18 @@ logger.debug('This is a debug message');
 ```
 
 ### [Validation](#validation)
+
 It is best practice to validate the correctness of any data sent into a web application. To automatically validate incoming requests, ObedJs make use of class-validator out-of-the-box
 
 ```bash
   npm i class-validator
+
 ```
 
 ### [Error Handling](#error-handling)
+
 Error Handling refers to how Express catches and processes errors that occur both synchronously and asynchronously. Express comes with a default error handler so you don’t need to write your own to get started.
 
-```bash
-
-```
 
 ## [Advanced Usage](#advanced-usage)
 
