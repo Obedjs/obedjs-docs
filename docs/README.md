@@ -103,6 +103,7 @@ router.post('/', controller.create.bind(controller));
 ```
 
 ### [Service](#service)
+Service are responsible for handling the application business logic.
 
 ```bash
 npm run generate service User
@@ -120,6 +121,8 @@ export class AppService {
 ```
 
 ### [Route](#route)
+Route are responsible for handling the application http request.
+
 
 ```bash
 npm run generate route User
@@ -134,6 +137,7 @@ npm run generate all User
 ```
 
 ### [Dto](#dto)
+Dto are responsible for handling the application validation.
 
 ```bash
 npm run generate dto SignUp
@@ -148,6 +152,8 @@ npm run generate middleware Auth
 ```
 
 ### [Configuration](#configuration)
+Configuration are responsible for handling the application config settings.
+
 
 ```bash
 npm run generate config Database
@@ -183,15 +189,13 @@ It is best practice to validate the correctness of any data sent into a web appl
 
 ### [Error Handling](#error-handling)
 
-Error Handling refers to how Express catches and processes errors that occur both synchronously and asynchronously. Express comes with a default error handler so you don’t need to write your own to get started.
+Error Handling refers to how ObedJs catches and processes errors that occur both synchronously and asynchronously. ObedJs comes with a default error handler so you don’t need to write your own to get started.
 
 
 ## [Advanced Usage](#advanced-usage)
 
 ### [Security](#security)
-The list below enumerates the Express vulnerabilities that were fixed in the specified version update.
 
-NOTE: If you believe you have discovered a security vulnerability in Obedjs, please see Security Policies and Procedures.
 
 ### [Production](#production)
 #### Docker file setup
