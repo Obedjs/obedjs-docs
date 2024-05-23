@@ -4,9 +4,17 @@
 
 ## [Installation](#installation)
 
-To get started, you can either scaffold the project with the Obedjs CLI, or clone a starter project (both will produce the same outcome).
+To begin, you can either use the ObedJS CLI to scaffold your project or clone a starter project. Both methods produce the same outcome, but using the CLI is recommended for first-time users.
 
-To scaffold the project with the Obedjs CLI, run the following commands. This will create a new project directory, and populate the directory with the initial core ObedJs files and supporting modules, creating a conventional base structure for your project. Creating a new project with the Obedjs CLI is recommended for first-time users.
+Scaffold with ObedJS CLI
+Run the following commands to create a new project directory and populate it with the initial core ObedJS files and modules:
+
+### Key Features
+
+1. Dependency Injection: Write clean, modular code.
+2. CLI Tool: Generate boilerplate code effortlessly.
+3. Logger: Powerful logging utility for easy debugging.
+3. TypeScript Support: Benefit from type safety and modern JS features.
 
 ### Install the CLI
 
